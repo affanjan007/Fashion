@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply text-gray-700 hover:text-black transition-colors;
+  }
+  
+  .footer-link {
+    @apply text-gray-600 hover:text-black transition-colors;
+  }
+  
+  .page-transition {
+    @apply transition-opacity duration-300 ease-in-out;
+  }
+}
